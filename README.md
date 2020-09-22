@@ -1,2 +1,2 @@
 # java_study
-Study repository to java
+Study repository for java
