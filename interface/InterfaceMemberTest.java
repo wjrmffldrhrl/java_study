@@ -7,6 +7,7 @@ public class InterfaceMemberTest {
     }
 }
 
+
 interface Sentence {
     int start = 1;
     int end = 0;
