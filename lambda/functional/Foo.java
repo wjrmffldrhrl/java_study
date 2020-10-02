@@ -1,5 +1,7 @@
 package functional;
 
+import java.util.function.Function;
+
 public class Foo {
     public static void main(String[] args) {
         
@@ -30,5 +32,23 @@ public class Foo {
         System.out.println(runReturnSomething.doIt(10));
         System.out.println(runReturnSomething.doIt(10));
         System.out.println(runReturnSomething.doIt(10));
+
+
+        Plus10 plus10 = new Plus10();
+
+        System.out.println(plus10.apply(1));
+
+        Function<Integer, Integer> plus11 = (i) -> i + 11;
+
+        System.out.println(plus11.apply(12));
+
+
+        Function<Integer, Integer> multiply2 = (i) -> i * 2;
+
+        System.out.println(multiply2.apply(2));
+
+        
+        System.out.println(plus10.compose(multiply2).apply(2));
+        System.out.println(plus10.andThen(multiply2).apply(2));
     }
 }
