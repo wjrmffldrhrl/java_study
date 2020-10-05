@@ -1,2 +1,6 @@
 org\example\App.class
-org\example\Moim.class
+org\example\byteCodeEdit\Masulsa.class
+org\example\byteCodeEdit\Moja.class
+org\example\coverage\Moim.class
+org\example\javaagent\MasulsaAgent$1.class
+org\example\javaagent\MasulsaAgent.class
