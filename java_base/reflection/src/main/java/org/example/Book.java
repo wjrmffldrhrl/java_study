@@ -1,21 +1,33 @@
 package org.example;
 
+//@Myannotation("tester")
 public class Book {
-    private String a = "a";
-    private static String B = "BOOK";
-    private static final String C = "BOOK";
 
-    public String d = "d";
+//    @Myannotation
+//    private String a = "A";
+//
+////    @Myannotation
+//    Book() {
+//
+//    }
 
-    protected String e = "e";
+    public static String A = "A";
+    private String B = "B";
 
-    public Book() {
+    Book() {
+
     }
 
-    public Book(String a, String b, String c) {
-        this.a = a;
-        this.B = b;
-        this.C = c;
+    public Book(String b) {
+        B = b;
     }
 
-}
+    public void c() {
+        System.out.println("C");
+
+    }
+
+    public int sum(int left, int right) {
+        return left + right;
+    }
+};
