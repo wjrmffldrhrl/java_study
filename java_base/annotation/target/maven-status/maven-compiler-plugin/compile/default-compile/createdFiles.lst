@@ -1,0 +1,5 @@
+org\example\Magic.class
+org\example\MagicMojaProcessor.class
+META-INF\services\java.lang.Process
+org\example\App.class
+org\example\Moja.class
